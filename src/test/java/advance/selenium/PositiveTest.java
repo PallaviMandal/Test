@@ -9,7 +9,7 @@ import advance.selenium.Base.BaseTest;
 import advance.selenium.Main.IMDB_API_Search;
 import advance.selenium.Main.MostPopularMoviesAndShowPage;
 import advance.selenium.Main.SearchResultPage;
-import advance.selenium.Main.WelcomePageObject;
+import advance.selenium.Main.WelcomePage;
 
 public class PositiveTest extends BaseTest {
 
@@ -23,7 +23,7 @@ public class PositiveTest extends BaseTest {
 
 	// ---------------FIRST PAGE-------------------------
 	// open imdb landing page i.e. welcome page and search for keyword
-	WelcomePageObject welcome = new WelcomePageObject(driver);
+	WelcomePage welcome = new WelcomePage(driver);
 	welcome.openWelcomePage();
 	welcome.searchOnPage(searchTerm);
 

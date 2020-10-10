@@ -19,7 +19,6 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void TearDown() {
-	// log.info("closing driver");
 	driver.quit();
     }
 }

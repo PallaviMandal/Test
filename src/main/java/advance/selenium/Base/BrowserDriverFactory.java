@@ -1,7 +1,5 @@
 package advance.selenium.Base;
 
-import java.util.logging.Logger;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,12 +7,9 @@ public class BrowserDriverFactory {
 
     private WebDriver driver;
     private String browser;
-    private Logger log;
 
     public BrowserDriverFactory(String browser) {
-
-	this.browser = "chrome";
-
+	this.browser = browser;
     }
 
     public WebDriver createDriver() {
