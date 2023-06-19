@@ -1,3 +1,5 @@
+This framework is based on Selenium, Cucumber, Junit, Maven and Java.
+
 The project has 4 packages
 1.pageObjects: This package has files related to each web page;
     1. SearchEngineHomePage: This file has locators and methods related to the search engine oped by user. Then user will enter search term. In my case it is google.
