@@ -1,0 +1,16 @@
+The project has 4 packages
+1.pageObjects: This package has files related to each web page;
+    1. SearchEngineHomePage: This file has locators and methods related to the search engine oped by user. Then user will enter search term. In my case it is google.
+    2. WebPage: This file is for the webpage the user will open after clicking on required search result.
+2.stepDefinations: This package contains the step definations of each actions taken by user.
+    1. searchTermSteps: The file has all the actions defined taken by user to search a term on search engine and validate if user lands on correct webpage.
+3.testRuuner:
+4.utilities: All the helper class are defined in this package.
+    1. CommonUtils: This class has the methods which are generally common for every web webpage. Like: click(),getElement() etc.
+    2. HandledException: This is a custom exception which will show the stackTrace of error and any custom message.
+    3.LaunchBrowser: This class has methods to launch any specific browser.
+
+The project has 3 Folders
+1.Drivers: This folder has all the drivers like chromedriver.
+2.Feature: This folder has the feature files which are basically the test scenarios.
+3.target: This folder contains the report of test executed.
